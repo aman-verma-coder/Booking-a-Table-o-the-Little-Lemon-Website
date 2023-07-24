@@ -1,0 +1,62 @@
+:root {
+  --primary-1: #495e57;
+  --primary-2: #f4ce14;
+  --highlight-1: #edefee;
+  --highlight-2: #333333;
+  --secondary-1: #ee9972;
+  --secondary-2: #fbdabb;
+  --typeface-primary: 'Markazi Text', serif;
+  --typeface-secondary: 'Karla', sans-serif;
+}
+
+.confirmation-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.wrapper h2 {
+  margin-top: -16px;
+  text-align: center;
+}
+
+.confirmation-card h3 {
+  margin-bottom: 16px;
+}
+
+.confirmation-card ul li {
+  margin-bottom: 8px;
+}
+
+.confirmation-card {
+  background-color: var(--secondary-2);
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.confirmation-card + a {
+  color: var(--highlight-2);
+}
+
+.confirmation-card + a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  .confirmation-card + a {
+    margin-bottom: 16px;
+    text-align: right;
+  }
+}
+
+@media (min-width: 940px) {
+  .wrapper .container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 840px;
+  }
+}
